@@ -1,3 +1,28 @@
+:root {
+  font-size: calc(0.7em + 1vw);
+
+  /* Primary */
+  --clr-dark-blue: hsl(233, 26%, 24%);
+  --clr-lime-green: hsl(136, 65%, 51%);
+  --clr-bright-cyan: hsl(192, 70%, 51%);
+
+  /* Neutral */
+  --clr-grayish-blue: hsl(233, 8%, 62%);
+  --clr-light-grayish-blue: hsl(220, 16%, 96%);
+  --clr-very-light-gray: hsl(0, 0%, 98%);
+  --clr-white: hsl(0, 0%, 100%);
+
+  --fw-light: 300;
+  --fw-medium: 400;
+  --fw-bold: 700;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +30,4 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
