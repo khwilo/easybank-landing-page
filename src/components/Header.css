@@ -1,0 +1,37 @@
+.header {
+  background-color: var(--clr-white);
+}
+
+.header__contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 0;
+}
+
+.nav {
+  display: none;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__item + .nav__item {
+  margin-left: 1rem;
+}
+
+.header__btn {
+  display: none;
+}
+
+@media (min-width: 48em) {
+  .nav,
+  .header__btn {
+    display: block;
+  }
+
+  .hamburger-icon {
+    display: none;
+  }
+}

@@ -1,5 +1,5 @@
 :root {
-  font-size: calc(0.7em + 1vw);
+  font-size: calc(0.6em + 1vw);
 
   /* Primary */
   --clr-dark-blue: hsl(233, 26%, 24%);
@@ -23,11 +23,44 @@
   box-sizing: border-box;
 }
 
-body {
+body,
+ul {
   margin: 0;
+}
+
+body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: var(--clr-very-light-gray);
+  color: var(--clr-grayish-blue);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--clr-grayish-blue);
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.action-btn {
+  border: none;
+  border-radius: 50px;
+  padding: 0.4em 1.5em;
+  background-color: var(--clr-lime-green);
+  color: var(--clr-white);
+  font-weight: var(--fw-bold);
+  font-size: inherit;
+  text-transform: capitalize;
 }
