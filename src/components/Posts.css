@@ -24,7 +24,6 @@
 @media (min-width: 55em) {
   .posts {
     display: flex;
-    max-width: 95%;
   }
 }
 

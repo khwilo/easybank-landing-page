@@ -37,11 +37,15 @@
 @media (min-width: 55em) {
   .services {
     display: flex;
-    max-width: 95%;
+    justify-content: space-between;
+  }
+
+  .article {
+    flex-basis: calc(25% - 1rem);
   }
 
   .article + .article {
-    margin: 0 0 0 1rem;
+    margin-top: 0;
   }
 
   .article > * + * {
