@@ -1,0 +1,50 @@
+.about {
+  padding: 5em 0;
+}
+
+.about__contents {
+  text-align: center;
+}
+
+@media (min-width: 48em) {
+  .about__contents {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 55em) {
+  .about__contents {
+    max-width: initial;
+    text-align: left;
+  }
+}
+
+.about__intro {
+  margin-bottom: 4rem;
+}
+
+@media (min-width: 55em) {
+  .about__intro {
+    max-width: 60%;
+  }
+}
+
+.article + .article {
+  margin-top: 2rem;
+}
+
+@media (min-width: 55em) {
+  .services {
+    display: flex;
+    max-width: 95%;
+  }
+
+  .article + .article {
+    margin: 0 0 0 1rem;
+  }
+
+  .article > * + * {
+    margin-top: 1rem;
+  }
+}
