@@ -6,6 +6,13 @@ const Banner = () => {
   return (
     <section className='banner'>
       <div className='banner__contents container'>
+        <div className='banner__image'>
+          <img
+            src='images/image-mockups.png'
+            alt='mobile phones'
+            className=''
+          />
+        </div>
         <div className='banner__about'>
           <h1 className='banner__title heading-text'>
             Next generation digital banking
@@ -15,14 +22,10 @@ const Banner = () => {
             one-stop-shop for spending, saving, budgeting, investing, and much
             more.
           </p>
-          <button className='action-btn'>Request invite</button>
+          <div className='banner__request'>
+            <button className='action-btn'>Request invite</button>
+          </div>
         </div>
-
-        <img
-          src='images/image-mockups.png'
-          alt='mobile phones'
-          className='banner__image'
-        />
       </div>
     </section>
   );
