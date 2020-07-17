@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Banner from './components/Banner';
 import Services from './components/Services';
 import Posts from './components/Posts';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <Services />
         <Posts />
       </main>
-      <footer className='footer'></footer>
+      <Footer />
     </div>
   );
 }

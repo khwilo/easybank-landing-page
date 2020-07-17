@@ -86,3 +86,7 @@ img {
   font-size: inherit;
   text-transform: capitalize;
 }
+
+.flow > * + * {
+  margin-top: 2rem;
+}
