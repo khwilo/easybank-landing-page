@@ -1,0 +1,56 @@
+.banner {
+  background-color: var(--clr-white);
+}
+
+.banner__contents {
+  position: relative;
+}
+
+.banner__image {
+  position: absolute;
+  top: -9rem;
+  z-index: -1;
+}
+
+@media (min-width: 55em) {
+  .banner__image {
+    position: absolute;
+    z-index: 1;
+
+    width: 60%;
+    top: -8rem;
+    right: -8rem;
+  }
+}
+
+.banner__about {
+  text-align: center;
+  padding: 6em 0;
+
+  position: absolute;
+  top: 20rem;
+}
+
+@media (min-width: 26em) {
+  .banner__about {
+    top: 30rem;
+  }
+}
+
+@media (min-width: 38em) {
+  .banner__about {
+    top: 35rem;
+  }
+}
+
+@media (min-width: 55em) {
+  .banner__about {
+    position: static;
+    text-align: left;
+    max-width: 50%;
+  }
+}
+
+.banner__about > * + * {
+  margin-top: 1rem;
+}

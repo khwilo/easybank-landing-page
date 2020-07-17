@@ -24,7 +24,9 @@
 }
 
 body,
-ul {
+ul,
+h1,
+p {
   margin: 0;
 }
 
@@ -49,9 +51,27 @@ a {
   color: var(--clr-grayish-blue);
 }
 
+img {
+  max-width: 100%;
+}
+
+.header {
+  position: relative;
+  z-index: 2;
+}
+
+.wrapper {
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
 .container {
   width: 90%;
   margin: 0 auto;
+}
+
+.heading-text {
+  color: var(--clr-dark-blue);
 }
 
 .action-btn {
