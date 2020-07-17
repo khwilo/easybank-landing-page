@@ -39,7 +39,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background-color: var(--clr-very-light-gray);
+  background-color: var(--clr-light-grayish-blue);
   color: var(--clr-grayish-blue);
 }
 
